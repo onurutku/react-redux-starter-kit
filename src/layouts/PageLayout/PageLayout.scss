@@ -2,6 +2,24 @@ header{
   background-color:#2980b9;
 }
 
+.navbar-brand {
+  color:#fff !important;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+.nav-link {
+  color:#fff !important;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+.active {
+    text-decoration: underline;
+}
+
 .page-layout__viewport {
   padding-top: 4rem;
 }
